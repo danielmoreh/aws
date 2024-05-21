@@ -20,16 +20,6 @@ The Assignment analyze the sarcasm in a given text.
 9. The application downloads the file from the s3 bucket, creating html file with the results.
 10. The application terminate the manager and the workers if the user chose to do so.
 
-## Running the Project
-
-1. On:
-   - Windoes `->` run `runMe.bat` file. To clean `->` run `clean.bat`
-   - Linux `->` run `Terminal` anf run `runMeLinux.sh` file. To clean `->` run `./cleanLinux.sh`.
-2. Make sure you save your AWS credentials in the `credentials` file.
-3. Run the `Local` jar by entering `jars` directory and running the following command:
-   - With Terminate: `java -jar Local.jar inputs/input1.txt inputs/input2.txt inputs/input3.txt inputs/input4.txt inputs/input5.txt out <number of reviews per worker> -t`
-   - Without Terminate: `java -jar Local.jar inputs/input1.txt inputs/input2.txt inputs/input3.txt inputs/input4.txt inputs/input5.txt out <number of reviews per worker>`
-
 ## Frontal Checking.
 
 - AMI: `ami-00e95a9222311e8ed` (The one Gal sent)
